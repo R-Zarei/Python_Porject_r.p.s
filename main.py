@@ -37,7 +37,7 @@ def R_P_S():
     computer = 0
     user = 0
     win = 'n'
-    while not ((abs(n_user - n_computer) == 5) or (abs(user - computer) >= 10)):
+    while not ((abs(n_user - n_computer) == 5) or (abs(user - computer) >= 50)):
         g = game()
         if g and (win == 'n' or win == 'c'):
             n_user += 1
